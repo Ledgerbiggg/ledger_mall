@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0855a341-0206-48ba-b1d0-dbea93b94cba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/controller/OssController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/domain/OssPolicyResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/service/OssService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/service/impl/OssServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ecs_4_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_sts_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/config/OssConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/config/OssConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/config/OssConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/config/OssConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductCategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-common/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0855a341-0206-48ba-b1d0-dbea93b94cba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +79,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -394,19 +365,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tuling-admin" />
       <option name="PACKAGE_NAME" value="" />
@@ -559,8 +517,16 @@
       <workItem from="1682218386012" duration="2223000" />
       <workItem from="1682221657865" duration="336000" />
       <workItem from="1682224170160" duration="4310000" />
-      <workItem from="1682247807146" duration="11855000" />
+      <workItem from="1682247807146" duration="11943000" />
     </task>
+    <task id="LOCAL-00001" summary="分类功能的实现">
+      <created>1682260606308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682260606308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,6 +656,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="分类功能的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="分类功能的实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
