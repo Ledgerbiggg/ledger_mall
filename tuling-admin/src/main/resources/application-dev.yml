@@ -10,6 +10,10 @@ spring:
     port: 6379 # Redis服务器连接端口
     password: 123 # Redis服务器连接密码（默认为空）
     timeout: 3000ms # 连接超时时间（毫秒）
+  #热部署开关，true开启，false关闭
+  devtools:
+    restart:
+      enabled: true
 
 logging:
   level:
@@ -18,13 +22,13 @@ logging:
 
 aliyun:
   oss:
-    endpoint: oss-cn-chengdu.aliyuncs.com # oss对外服务的访问域名
-    accessKeyId: LTAI4GHWCM5LdNoiLy35mBog # 访问身份验证中用到用户标识
-    accessKeySecret: Vytl0LAIKGmiWATIuuwevN3LjzQs9S # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
-    bucketName: tulingmall-xushu # oss的存储空间
-    policy:
-      expire: 300 # 签名有效期(S)
+    endpoint: oss-cn-shenzhen.aliyuncs.com # oss对外服务的访问域名
+    accessKeyId: LTAI5tM5Uoy767iwA1ZJKjAn # 访问身份验证中用到用户标识
+    accessKeySecret: esfhcnvwtwDeBiHe8t5IE1DW8arUji # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    bucketName: ledger-for-project # oss的存储空间
+  policy:
+    expire: 300 # 签名有效期(S)
     maxSize: 10 # 上传文件大小(M)
     #callback:  # 文件上传成功后的回调地址
-    dir:
-      prefix: tulingmall/images/ # 上传文件夹路径前缀
+  dir:
+      prefix: mall/ # 上传文件夹路径前缀
