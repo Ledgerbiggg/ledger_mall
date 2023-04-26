@@ -1,0 +1,109 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1" date="1682514444556" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2023/4/26 21:07 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsBrandServiceImpl.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsBrandServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsBrandServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/mapper/PmsProductCategoryMapper.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/mapper/PmsProductCategoryMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductCategoryMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductCategoryServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeCategoryServiceImpl.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeCategoryServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeCategoryServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/ums/controller/UmsMemberLevelController.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/ums/controller/UmsMemberLevelController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/UmsMemberLevelController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeService.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeServiceImpl.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsBrandController.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsBrandController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsBrandController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsBrandService.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsBrandService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsBrandService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/ums/service/UmsMemberLevelService.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/ums/service/UmsMemberLevelService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/UmsMemberLevelService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/ums/service/impl/UmsMemberLevelServiceImpl.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/ums/service/impl/UmsMemberLevelServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/UmsMemberLevelServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductCategoryService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductController.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeController.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/mapper/PmsProductAttributeCategoryMapper.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/mapper/PmsProductAttributeCategoryMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeCategoryMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/model/PmsProductCategory.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/model/PmsProductCategory.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductCategory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductService.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeCategoryService.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeCategoryService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeCategoryService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductServiceImpl.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeCategoryController.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeCategoryController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProductAttributeCategoryController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/model/PmsProduct.class" />
+    <option name="AFTER_PATH" value="tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/model/PmsProduct.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_4_26_21_07_[Default_Changelist]1/PmsProduct.class" />
+  </binary>
+</changelist>
