@@ -4,6 +4,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.tulingxueyuan.mall.common.api.CommonPage;
 import com.tulingxueyuan.mall.common.api.CommonResult;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductAttributeCategory;
+import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithAttrDTO;
+
+import java.util.List;
 
 /**
  * <p>
@@ -22,5 +25,7 @@ public interface PmsProductAttributeCategoryService extends IService<PmsProductA
     CommonResult<String> create(PmsProductAttributeCategory pmsProductAttributeCategory);
 
     CommonResult<String> edit(PmsProductAttributeCategory pmsProductAttributeCategory);
+
+    CommonResult<List<PmsProductCategoryWithAttrDTO>> getListWithAttr();
 
 }

@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class OssPolicyResult {
     @ApiModelProperty("访问身份验证中用到的用户标示")
-    private String accessid;
+    private String ossaccessKeyId;
     @ApiModelProperty("用户表单上传的策略")
     private String policy;
     @ApiModelProperty("对policy签名后的字符串")

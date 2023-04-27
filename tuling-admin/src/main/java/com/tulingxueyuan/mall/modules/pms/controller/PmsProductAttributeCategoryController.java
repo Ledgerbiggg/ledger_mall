@@ -4,12 +4,12 @@ package com.tulingxueyuan.mall.modules.pms.controller;
 import com.tulingxueyuan.mall.common.api.CommonPage;
 import com.tulingxueyuan.mall.common.api.CommonResult;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductAttributeCategory;
+import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithAttrDTO;
 import com.tulingxueyuan.mall.modules.pms.service.PmsProductAttributeCategoryService;
-import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.*;
+import java.util.List;
 
 /**
  * <p>
@@ -48,6 +48,13 @@ public class PmsProductAttributeCategoryController {
     public CommonResult<String> update(PmsProductAttributeCategory pmsProductAttributeCategory){
         return pmsProductAttributeCategoryService.edit(pmsProductAttributeCategory);
     }
+    //productAttribute/category/list/withAttr
+    //get
+    @GetMapping("/list/withAttr")
+    public CommonResult<List<PmsProductCategoryWithAttrDTO>> getListWithAttr(){
+        return pmsProductAttributeCategoryService.getListWithAttr();
+    }
+
 
 
 }

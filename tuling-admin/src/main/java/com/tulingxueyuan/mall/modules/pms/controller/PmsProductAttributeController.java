@@ -5,7 +5,9 @@ import cn.hutool.db.Page;
 import com.tulingxueyuan.mall.common.api.CommonPage;
 import com.tulingxueyuan.mall.common.api.CommonResult;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductAttribute;
+import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductAttrInfoDTO;
 import com.tulingxueyuan.mall.modules.pms.service.PmsProductAttributeService;
+import com.tulingxueyuan.mall.modules.pms.service.PmsProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,6 +27,9 @@ import java.util.List;
 public class PmsProductAttributeController {
     @Autowired
     private PmsProductAttributeService pmsProductAttributeService;
+    @Autowired
+    private PmsProductCategoryService pmsProductCategoryService;
+
     //productAttribute/list/1?pageNum=1&pageSize=5&type=0
     //get
     @GetMapping("/list/{id}")
@@ -56,6 +61,15 @@ public class PmsProductAttributeController {
         return pmsProductAttributeService.delete(ids);
     }
 
+    /*
+     *  productAttribute/attrInfo/19
+     *  GET
+     * */
+
+    @GetMapping("/attrInfo/{id}")
+    public CommonResult<List<PmsProductAttrInfoDTO>> getAttrInfo(@PathVariable Long id){
+        return pmsProductCategoryService.getAttrInfo(id);
+    }
 
 }
 

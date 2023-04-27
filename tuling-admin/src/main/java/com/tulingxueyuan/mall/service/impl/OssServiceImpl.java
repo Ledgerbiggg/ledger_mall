@@ -64,7 +64,7 @@ public class OssServiceImpl implements OssService {
             String postSignature = ossClient.calculatePostSignature(postPolicy);
 
             Map<String, String> respMap = new LinkedHashMap<String, String>();
-            respMap.put("accessid", ALIYUN_OSS_ACCESSKEYID);
+            respMap.put("ossaccessKeyId", ALIYUN_OSS_ACCESSKEYID);
             respMap.put("policy", encodedPolicy);
             respMap.put("signature", postSignature);
             respMap.put("dir", dir);

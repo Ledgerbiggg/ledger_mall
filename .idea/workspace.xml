@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0855a341-0206-48ba-b1d0-dbea93b94cba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/model/dto/PmsProductAttrInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/model/dto/PmsProductCategoryWithAttrDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/model/dto/PmsProductWithAttrIdsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/domain/OssPolicyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/domain/OssPolicyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/controller/PmsProductCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/service/impl/OssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/service/impl/OssServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeCategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/controller/PmsProductAttributeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeCategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductAttributeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/PmsProductCategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductAttributeCategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tuling-admin/target/classes/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,6 +389,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tuling-admin" />
       <option name="PACKAGE_NAME" value="" />
@@ -525,6 +555,8 @@
       <workItem from="1682247807146" duration="11943000" />
       <workItem from="1682517293420" duration="260000" />
       <workItem from="1682559815138" duration="6026000" />
+      <workItem from="1682569054375" duration="2651000" />
+      <workItem from="1682593777570" duration="11549000" />
     </task>
     <task id="LOCAL-00001" summary="分类功能的实现">
       <created>1682260606308</created>
@@ -540,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682565296242</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="分类功能的实现">
+      <created>1682569249007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682569249007</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -678,10 +717,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/tuling-mpbg/src/main/java/com/tulingxueyuan/mall/generator/MyBatisPlusGenerator.java</url>
           <line>138</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/tuling-admin/src/main/java/com/tulingxueyuan/mall/modules/pms/service/impl/PmsProductCategoryServiceImpl.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
