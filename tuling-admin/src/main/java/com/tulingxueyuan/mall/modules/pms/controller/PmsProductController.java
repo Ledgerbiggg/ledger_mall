@@ -97,6 +97,15 @@ public class PmsProductController {
     public CommonResult<String> delete(@RequestParam List<Long> ids,Long deleteStatus){
         return pmsProductService.delete(ids,deleteStatus);
     }
+    /*
+    * /product/update/56
+    * POST
+    * */
+    @PostMapping("/update/{id}")
+    public CommonResult<String> update(@RequestBody PmsProductInfoWithListDTO pmsProductInfoWithListDTO){
+        return pmsProductService.edit(pmsProductInfoWithListDTO);
+    }
+
 
 
 

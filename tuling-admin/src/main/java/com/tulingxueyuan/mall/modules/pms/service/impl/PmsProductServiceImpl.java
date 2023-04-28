@@ -113,7 +113,7 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
         //添加商品的详细信息
         PmsProduct pmsProduct = new PmsProduct();
         BeanUtil.copyProperties(pmsProductInfoWithListDTO,pmsProduct);
-        boolean save = pmsProductService.save(pmsProduct);
+        boolean save = pmsProductService.saveOrUpdate(pmsProduct);
         Long id = pmsProduct.getId();
         if (save) {
             saveManyList(pmsProductInfoWithListDTO.getProductLadderList(),id,pmsProductLadderService);
@@ -162,6 +162,11 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
         return removeByIds?CommonResult.success("删除成功"):CommonResult.failed("删除失败");
     }
 
+    @Override
+    public CommonResult<String> edit(PmsProductInfoWithListDTO pmsProductInfoWithListDTO) {
+        return create(pmsProductInfoWithListDTO);
+    }
+
     private void saveManyList(List list, Long productId, IService service){
         if (list.isEmpty()) {
             return;
@@ -174,6 +179,6 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
                 throw new RuntimeException(e);
             }
         }
-        service.saveBatch(list);
+        service.saveOrUpdateBatch(list);
     }
 }

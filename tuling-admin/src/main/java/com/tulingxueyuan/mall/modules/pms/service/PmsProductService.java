@@ -32,4 +32,7 @@ public interface PmsProductService extends IService<PmsProduct> {
     CommonResult<PmsProductInfoWhitListAndCategoryDTO> getUpdateInfo(Long id);
 
     CommonResult<String> delete(List<Long> ids, Long deleteStatus);
+
+    CommonResult<String> edit(PmsProductInfoWithListDTO pmsProductInfoWithListDTO);
+
 }
