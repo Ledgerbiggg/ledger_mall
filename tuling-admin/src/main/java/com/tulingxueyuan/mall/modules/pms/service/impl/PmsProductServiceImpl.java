@@ -36,7 +36,6 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
     @Autowired
     private PmsProductService pmsProductService;
 
-
     @Autowired
     private PmsSkuStockService pmsSkuStockService;
 
@@ -177,6 +176,4 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
         }
         service.saveBatch(list);
     }
-
-
 }
