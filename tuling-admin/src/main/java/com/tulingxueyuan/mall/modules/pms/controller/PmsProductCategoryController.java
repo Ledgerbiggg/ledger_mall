@@ -4,12 +4,14 @@ package com.tulingxueyuan.mall.modules.pms.controller;
 import com.tulingxueyuan.mall.common.api.CommonPage;
 import com.tulingxueyuan.mall.common.api.CommonResult;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductCategory;
-import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithAttrDTO;
+import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithChildrenDTO;
 import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductWithAttrIdsDTO;
 import com.tulingxueyuan.mall.modules.pms.service.PmsProductCategoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 /**
@@ -99,6 +101,13 @@ public class PmsProductCategoryController {
     @PostMapping("/update/{id}")
     public CommonResult<String> update(@RequestBody PmsProductWithAttrIdsDTO pmsProductWithAttrIdsDTO) {
         return pmsProductCategoryService.edit(pmsProductWithAttrIdsDTO);
+    }
+    /*
+    * productCategory/list/withChildren
+    * */
+    @GetMapping("/list/withChildren")
+    public CommonResult<List<PmsProductCategoryWithChildrenDTO>> listWithChildren(){
+        return pmsProductCategoryService.listWithChildren();
     }
 
 

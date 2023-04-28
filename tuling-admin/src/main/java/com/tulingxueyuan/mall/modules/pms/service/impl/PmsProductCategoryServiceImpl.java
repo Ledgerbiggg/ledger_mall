@@ -12,9 +12,8 @@ import com.tulingxueyuan.mall.modules.pms.model.PmsProductAttribute;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductCategory;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductCategoryAttributeRelation;
 import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductAttrInfoDTO;
-import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithAttrDTO;
+import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithChildrenDTO;
 import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductWithAttrIdsDTO;
-import com.tulingxueyuan.mall.modules.pms.service.PmsProductAttributeCategoryService;
 import com.tulingxueyuan.mall.modules.pms.service.PmsProductAttributeService;
 import com.tulingxueyuan.mall.modules.pms.service.PmsProductCategoryAttributeRelationService;
 import com.tulingxueyuan.mall.modules.pms.service.PmsProductCategoryService;
@@ -24,8 +23,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
@@ -153,4 +150,24 @@ public class PmsProductCategoryServiceImpl extends ServiceImpl<PmsProductCategor
         }).collect(Collectors.toList());
         return CommonResult.success(collect);
     }
+
+    @Override
+    public CommonResult<List<PmsProductCategoryWithChildrenDTO>> listWithChildren() {
+        //查询商品筛选信息锁需要的二级级联
+        LambdaQueryWrapper<PmsProductCategory> pmsProductCategoryLambdaQueryWrapper = new LambdaQueryWrapper<>();
+        pmsProductCategoryLambdaQueryWrapper.eq(PmsProductCategory::getParentId,0);
+        List<PmsProductCategory> list = list(pmsProductCategoryLambdaQueryWrapper);
+        ArrayList<PmsProductCategoryWithChildrenDTO> pmsProductCategoryWithChildrenDTOArrayList = new ArrayList<>();
+        for (PmsProductCategory pmsProductCategory : list) {
+            PmsProductCategoryWithChildrenDTO pmsProductCategoryWithChildrenDTO = new PmsProductCategoryWithChildrenDTO();
+            BeanUtil.copyProperties(pmsProductCategory, pmsProductCategoryWithChildrenDTO);
+            LambdaQueryWrapper<PmsProductCategory> pmsProductCategoryLambdaQueryWrapper1 = new LambdaQueryWrapper<>();
+            pmsProductCategoryLambdaQueryWrapper1.eq(PmsProductCategory::getParentId,pmsProductCategory.getId());
+            List<PmsProductCategory> pmsProductCategories = list(pmsProductCategoryLambdaQueryWrapper1);
+            pmsProductCategoryWithChildrenDTO.setChildren(pmsProductCategories);
+            pmsProductCategoryWithChildrenDTOArrayList.add(pmsProductCategoryWithChildrenDTO);
+        }
+        return CommonResult.success(pmsProductCategoryWithChildrenDTOArrayList);
+    }
 }
+

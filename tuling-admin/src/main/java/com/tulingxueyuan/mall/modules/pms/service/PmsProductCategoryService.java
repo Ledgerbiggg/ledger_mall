@@ -5,11 +5,10 @@ import com.tulingxueyuan.mall.common.api.CommonPage;
 import com.tulingxueyuan.mall.common.api.CommonResult;
 import com.tulingxueyuan.mall.modules.pms.model.PmsProductCategory;
 import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductAttrInfoDTO;
-import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithAttrDTO;
+import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductCategoryWithChildrenDTO;
 import com.tulingxueyuan.mall.modules.pms.model.dto.PmsProductWithAttrIdsDTO;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * <p>
@@ -34,4 +33,7 @@ public interface PmsProductCategoryService extends IService<PmsProductCategory> 
     CommonResult<String> edit(PmsProductWithAttrIdsDTO pmsProductWithAttrIdsDTO);
 
     CommonResult<List<PmsProductAttrInfoDTO>> getAttrInfo(Long id);
+
+    CommonResult<List<PmsProductCategoryWithChildrenDTO>> listWithChildren();
+
 }
